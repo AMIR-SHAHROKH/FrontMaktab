@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: vazirmatn;
+        }
+        body {
+          font-family: 'IranSans', sans-serif; 
+          text-align: right;
+          background-color:white;
+          direction: rtl;
+          font-family: vazirmatn;
+        }
+    
+        form {
+          max-width: 400px;
+          margin: 0 auto;
+       
+          
+        }
+    
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+    
+        input, textarea {
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 10px;
+          box-sizing: border-box;
+          border-radius: 10px;
+        }
+    
+        input[type="submit"] {
+          background-color:yellow; 
+          color: white;
+          cursor: pointer;
+          width: 30%;
+          font-size: 22px;
+          border-radius: 30px;
+        }
+        .contant{
+            display: flex;
+            justify-content: center;
+            
+            gap: 30px;
+            margin-top: 40px;
+            
+
+        }
+        section{
+            width: 100%;
+        }
+        .box{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+    
+
+            
+
+        }
+        .box img{
+            width: 20px;
+            height: 20px;
+
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            
+        }
+      </style>
+</head>
+<body>
+    <h1>
+        تماس با ما
+    </h1>
+    <p> خیالتان راحت باشد .  فقط کارشناسان باما</p>
+    <div class="contant" >
+    <section >
+    <form action="https://formsubmit.co/ghasemi.ferdosi@gmail.com" method="post">
+        <input type="text" id="firstName" name="firstName" placeholder="نام" required>
+    
+        <input type="text" id="lastName" name="lastName" placeholder="نام خانوادگی" required>
+    
+        <input type="email" id="email" name="email" placeholder="ایمیل" >
+    
+        <input type="password" id="password" name="password" placeholder="رمز عبور" required>
+
+        <input type="file" id="fileUpload" name="fileUpload" placeholder="آپلود فایل">
+        <select style="margin-bottom: 30px;" >
+            <option selected disabled> جنسیت</option>
+            <option value="Male">مرد</option>
+            <option value="Female">زن</option>
+            <option> به تو ربطی نداره</option>
+        </select>
+    
+
+        <textarea id="comments" name="comments" rows="4" placeholder="توضیحات"></textarea>
+    
+        <input type="submit" value="ارسال" >
+      </form>
+      </section>
+      <section >
+        <div class="box">
+            <img src="https://cdn.icon-icons.com/icons2/4077/PNG/512/whatsapp_logo_icon_258952.png" >
+            <div class="info">
+                <p>021-33333333</p>
+                <P>024-66666666</P>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.icon-icons.com/icons2/4077/PNG/512/user_username_people_account_avatar_profile_person_icon_258962.png" >
+            <p>شنبه تا چهارشنبه از ۹:۰۰ تا ۲۲:۰۰ - بنجشنبه ها از ۹:۰۰ تا ۱۴:۰۰ - به غیر از روزهای تعطیل</p>
+
+        </div>
+        <div class="box">
+            <img src="https://cdn.icon-icons.com/icons2/4077/PNG/512/envelope_email_mail_message_icon_258992.png" >
+            <p>info.test@gmail.com</p>
+         
+
+        </div>
+        <div>
+            <div class="box">
+                <img src="https://cdn.icon-icons.com/icons2/4077/PNG/512/placeholder_map_pin_location_icon_258989.png" >
+                <p>تهران,سعادت آباد,بالاتر از میدان کاج,خیابان محمدی,بلاک ۳۴,ظبقه ۱۵,واحد ۸۰</p>
+                
+    
+        </div>
+      </section>
+    </div>
+</body>
+</html>

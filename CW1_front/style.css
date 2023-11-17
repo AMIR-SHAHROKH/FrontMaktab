@@ -1,0 +1,10 @@
+body {
+  background-color: rgba(0, 242, 255, 0.666);
+  direction: rtl;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+}
